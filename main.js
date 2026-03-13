@@ -1,5 +1,4 @@
 const Apify = require("apify");
-const fetch = require("node-fetch");
 
 Apify.main(async () => {
   const input = (await Apify.getInput()) || {};
