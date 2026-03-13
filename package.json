@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "commonjs",
   "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
   "dependencies": {
     "apify": "^3.7.0",
     "apify-client": "^2.22.2"
