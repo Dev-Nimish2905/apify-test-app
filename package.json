@@ -1,0 +1,10 @@
+{
+  "name": "reddit-pain-scraper",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "main.js",
+  "dependencies": {
+    "apify": "^3.7.0",
+    "apify-client": "^2.22.2"
+  }
+}
