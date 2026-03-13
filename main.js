@@ -4,7 +4,9 @@ const { ApifyClient } = require("apify-client");
 async function main() {
   await Actor.init();
 
-  const client = new ApifyClient({ token: process.env.APIFY_TOKEN });
+  const client = new ApifyClient({
+    token: process.env.APIFY_TOKEN || Actor.config.get("token"),
+  });
   const dataset = await Actor.openDataset("reddit-pain-points");
 
   const targets = [
